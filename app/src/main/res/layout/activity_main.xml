@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_registro_contactos"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/descripcion_logo_umg"
+        android:scaleType="centerInside"
+        android:src="@drawable/umg" />
+
+    <Button
+        android:id="@+id/agregar"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/agregar_boton"
+        app:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/lista"
+        android:textColor="#000000"
+        />
+</LinearLayout>

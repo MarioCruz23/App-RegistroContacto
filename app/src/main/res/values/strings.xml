@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoCrud</string>
+    <string name="agregar_boton">Agregar Contacto</string>
+    <string name="titulo_registro_contactos">Registro de contactos</string>
+    <string name="descripcion_logo_umg">Logo UMG</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+</resources>
